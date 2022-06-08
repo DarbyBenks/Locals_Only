@@ -4,6 +4,7 @@ import ImageTwo from './ImageTwo'
 import ImageThree from './ImageThree'
 import StartButton from './StartButton'
 
+
 function Home() {
     return (
     <div>
@@ -11,6 +12,7 @@ function Home() {
         <ImageTwo />
         <ImageThree />
         <StartButton />
+
      
     </div>
   )
