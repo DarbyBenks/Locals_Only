@@ -33,7 +33,7 @@ code {
   letter-spacing: 10px;
 }
 
-#startButton{
+.startButton{
   background-color: grey; /* Green */
   border: none;
   color: white;
@@ -45,15 +45,32 @@ code {
   position: absolute;
 }
 
-#startButton:hover {
+.startButton:hover {
   background-color: #45a049;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
 }
 
-#startButtonDiv{
+.startButtonDiv{
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: -650px;
 
+}
+
+.logButtonDiv{
+  margin-top: -1.5em;
+  margin-right: -90em;
+
+}
+
+.logButton{
+  background-color: grey; /* Green */
+  border: none;
+  color: white;
+  text-decoration: none;
+  margin-top: 3em;
+  display: inline-block; 
+  font-size: 20px;
+ 
 }

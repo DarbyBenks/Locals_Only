@@ -4,8 +4,8 @@ import {useNavigate} from 'react-router-dom'
 function StartButton() {
     let navigate = useNavigate()
   return (
-    <div id='startButtonDiv'>
-    <button id='startButton' onClick={() => {navigate("/about")}}>Start Your Adventure</button>
+    <div className='startButtonDiv'>
+      <button className='startButton' onClick={() => {navigate("/about")}}>Start Your Adventure</button>
     </div>
   )
 }

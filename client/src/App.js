@@ -3,6 +3,10 @@ import Home from './Components/Home';
 import About from './Components/About';
 import ErrorPage from './Components/ErrorPage';
 import './style.css';
+import LoginButton from './Components/LoginButton'
+import LogoutButton from './Components/LogoutButton'
+
+
 function App() {
   return (
     <Router>
@@ -10,6 +14,8 @@ function App() {
         <ul id='ul_nav'>
         <Link to="/" className='nav'> Home </Link>
         <Link to="/about" className='nav'> About </Link>
+        <LoginButton />
+        <LogoutButton />
         </ul>
        </nav>
       <Routes>
