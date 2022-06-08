@@ -1,0 +1,40 @@
+#navBar{
+    padding: 1em;
+    text-align: center;
+    word-spacing: 5em;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    
+}
+
+#ul_nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.nav{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    border-bottom: 1px solid #fff;
+}
+
+#home_text{
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
