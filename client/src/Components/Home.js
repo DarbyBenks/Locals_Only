@@ -1,19 +1,21 @@
-import React from 'react'
+// import React, { useEffect } from 'react'
 import ImageOne from './ImageOne'
 import ImageTwo from './ImageTwo'
 import ImageThree from './ImageThree'
 import StartButton from './StartButton'
+// import {useEffect} from
 
 
 function Home() {
-    return (
+    
+    
+    
+      return (
     <div>
         <ImageOne />
         <ImageTwo />
         <ImageThree />
         <StartButton />
-
-     
     </div>
   )
 }

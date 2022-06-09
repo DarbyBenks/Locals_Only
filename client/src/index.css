@@ -60,7 +60,7 @@ code {
 
 .logButtonDiv{
   margin-top: -1.5em;
-  margin-right: -70em;
+  margin-right: -80em;
 
 }
 
@@ -73,4 +73,13 @@ code {
   display: inline-block; 
   font-size: 20px;
  
+}
+
+#loginButton{
+  margin-top: -10em;
+  margin-right: 1em;
+}
+
+#logoutButton{
+  margin-top: -10em;
 }
