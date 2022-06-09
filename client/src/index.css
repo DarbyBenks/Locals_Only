@@ -59,8 +59,8 @@ code {
 }
 
 .logButtonDiv{
-  margin-top: -1.5em;
-  margin-right: -80em;
+  margin-top: -1.75em;
+  margin-right: -10em;
 
 }
 
@@ -77,11 +77,12 @@ code {
 
 #loginButton{
   margin-top: -10em;
-  margin-right: 1em;
+  margin-right: -40em;
 }
 
 #logoutButton{
   margin-top: -10em;
+  margin-right: -40em;
 }
 
 #loginButton:hover {
