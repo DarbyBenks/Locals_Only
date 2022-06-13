@@ -10,7 +10,7 @@ function Profile() {
       isAuthenticated && (
         <div>
           <img src={user.picture} alt="Profile" /> 
-          <h1>Welcome, {user.name.toUpperCase()}!</h1>
+          <h1>Welcome, {user.name}!</h1>
 
             
         </div>

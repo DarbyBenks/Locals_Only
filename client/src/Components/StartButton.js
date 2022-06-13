@@ -5,7 +5,7 @@ function StartButton() {
     let navigate = useNavigate()
   return (
     <div className='startButtonDiv'>
-      <button className='startButton' onClick={() => {navigate("/about")}}>Start Your Adventure</button>
+      <button className='startButton' onClick={() => {navigate("/posts")}}>Start Your Adventure</button>
     </div>
   )
 }
