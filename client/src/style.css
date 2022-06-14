@@ -40,15 +40,10 @@
 
 .posts{
     text-align: center;  
-    border: grey solid 20px;
-    border-radius: 50px;
-    padding: 20px;
-    margin: 100px;
-    background-color: grey
 }
 
 .postImages{
-    width: 25%;
+    width: 50%;
     height: 50%;
 }
 

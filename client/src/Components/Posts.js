@@ -4,7 +4,6 @@ import {useNavigate} from 'react-router-dom'
 
 
 
-
 function Posts(){
   let navigate = useNavigate()
 const [posts, setPosts] = useState([]);
