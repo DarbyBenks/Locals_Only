@@ -8,6 +8,7 @@ import LogoutButton from './Components/LogoutButton'
 import Profile from './Components/Profile';
 import { useAuth0 } from '@auth0/auth0-react';
 import SinglePost from './Components/SinglePost';
+import CreatePost from './Components/CreatePost';
 
 
 
@@ -23,6 +24,7 @@ const { isLoading } = useAuth0();
         <ul id='ul_nav'>
         <Link to="/" className='nav'> Home </Link>
         <Link to="/posts" className='nav'> Posts </Link>
+        <Link to="/createpost" className='nav'> Create </Link>
         <Link to ="/profile" className='nav'> Profile </Link>
         </ul> 
         <LoginButton />
@@ -33,6 +35,7 @@ const { isLoading } = useAuth0();
         <Route path="/posts" element={<Posts  />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/single" element={<SinglePost />} />
+        <Route path="/createpost" element={<CreatePost />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </Router>
