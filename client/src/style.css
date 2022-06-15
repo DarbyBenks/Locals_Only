@@ -61,6 +61,11 @@ input[type=text] {
 .form-content-right{
     text-align: center;
     padding: 1em;
+    border: solid 1px #ccc;
+    border-radius: 6px;
+    margin-top: 1em;
+    max-width: 90%;
+    
     
 
 }
@@ -81,4 +86,10 @@ input[type=text] {
     text-align: center;
     padding: 1em;
 }
+
+/* #decriptionBox{
+    width: 100%;
+    height: 100%;
+    padding: 1.2em;
+} */
 

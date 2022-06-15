@@ -28,6 +28,7 @@ const [posts, setPosts] = useState([]);
 
   return(
     <div id='postsPage'>
+        <h1 className="postsTitle">Posts</h1>
         <p>{displayPosts}</p>
     </div>
   )

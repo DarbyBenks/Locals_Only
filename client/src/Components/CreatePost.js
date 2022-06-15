@@ -24,8 +24,8 @@ const navigate = useNavigate();
                     <input type='text' name='imageUrl' placeholder='Image Url' className='form-inputs' value={values.imageUrl} onChange={handleChange}/>
             </div>
             <div className='form-inputs'>
-                <label htmlFor='Description' className='form-inputs'> Tell me about it </label>
-                    <input type='text' name='description' placeholder='Description' className='form-inputs' value={values.description} onChange={handleChange}/>
+                <label htmlFor='Description' className='form-inputs' id='decriptionBox'> Tell me about it </label>
+                    <textarea type='text' name='description' placeholder='Description' className='form-inputs' value={values.description} onChange={handleChange}/>
             </div>
               <button type='submit' className='form-input-btn'> Submit </button>
         </form>
