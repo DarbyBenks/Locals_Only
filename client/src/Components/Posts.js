@@ -1,6 +1,9 @@
 import { useEffect } from 'react';
 import { useState } from 'react';
 import {useNavigate} from 'react-router-dom'
+import { useAuth0 } from "@auth0/auth0-react";
+
+
 
 
 
@@ -25,12 +28,15 @@ const [posts, setPosts] = useState([]);
     </div>
 
     )})
+const {isAuthenticated } = useAuth0();
+  
 
   return(
+    isAuthenticated && (
     <div id='postsPage'>
-        <h1 className="postsTitle">Posts</h1>
         <p>{displayPosts}</p>
     </div>
+  )
   )
 }
 
