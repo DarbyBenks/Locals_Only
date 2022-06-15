@@ -60,7 +60,7 @@ code {
 
 .logButtonDiv{
   margin-top: .25em;
-  margin-left: -100.5em;
+  margin-left: -58.5em;
 }
 
 .logButton{
@@ -68,7 +68,6 @@ code {
   border: none;
   color: white;
   text-decoration: none;
-  margin-top: 3em;
   display: inline-block; 
   font-size: 20px;
  
@@ -76,12 +75,11 @@ code {
 
 #loginButton{
   margin-top: -10em;
-  margin-right: -40em;
+  
 }
 
 #logoutButton{
   margin-top: -10em;
-  margin-right: -40em;
 }
 
 #loginButton:hover {
@@ -114,4 +112,19 @@ code {
 
 .singlePostDiv{
   align-items: center;
+}
+
+#postsPage{
+  background-image: url(./img/oceanPanoBackground.jpg);
+  background-size: cover;
+}
+
+.postTitle{
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: black 0.2em 0.2em 0.3em;
+  padding: 1em;
+
 }

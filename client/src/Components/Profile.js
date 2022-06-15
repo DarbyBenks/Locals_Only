@@ -8,9 +8,10 @@ function Profile() {
     return (
       
       isAuthenticated && (
-        <div>
+        <div id='userDiv'>
           <img src={user.picture} alt="Profile" /> 
           <h1>Welcome, {user.name}!</h1>
+          <p>Let your Journey Begin</p>
 
             
         </div>

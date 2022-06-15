@@ -12,15 +12,15 @@ const navigate = useNavigate();
         <form className='form' onSubmit={handleSubmit}>
             <h1> Lets create your post! </h1>
             <div className='form-inputs'>
-                <label htmlFor='title' className='form-inputs'> What is it called? </label>
+                <label htmlFor='title' className='form-inputs'> What is it called </label>
                     <input type='text' name='title' placeholder='Title' className='form-inputs' value={values.title} onChange={handleChange}/>
             </div>
             <div className='form-inputs'>
-                <label htmlFor='location' className='form-inputs'> Where is it </label>
+                <label htmlFor='location' className='form-inputs' id='location'> Where is it </label>
                     <input type='text' name='location' placeholder='Location' className='form-inputs' value={values.location} onChange={handleChange}/>
             </div>
             <div className='form-inputs'>
-                <label htmlFor='Img url' className='form-inputs'> Lets see it </label>
+                <label htmlFor='Img url' className='form-inputs' id='imagePost'> Lets see it </label>
                     <input type='text' name='imageUrl' placeholder='Image Url' className='form-inputs' value={values.imageUrl} onChange={handleChange}/>
             </div>
             <div className='form-inputs'>

@@ -20,15 +20,14 @@ const [posts, setPosts] = useState([]);
     post => {
     return (
     <div onClick={() => {navigate(`/single`, {state: {id: post.id}})}} className="posts" key={post.id}> 
-    <h1 id={post.id}> {post.title} </h1>
-    <img className="postImages" src={post.img_url} alt={post.title} />
+    <h1 id={post.id} className="postTitle"> {post.title} </h1>
+    <img className="postImages" id='imagesPost' src={post.img_url} alt={post.title} />
     </div>
 
     )})
 
   return(
-    <div>
-      <h1>Posts</h1>
+    <div id='postsPage'>
         {displayPosts}
     </div>
   )
