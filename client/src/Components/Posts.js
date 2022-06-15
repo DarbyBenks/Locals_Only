@@ -28,7 +28,7 @@ const [posts, setPosts] = useState([]);
 
   return(
     <div id='postsPage'>
-        {displayPosts}
+        <p>{displayPosts}</p>
     </div>
   )
 }
