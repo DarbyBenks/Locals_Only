@@ -60,7 +60,9 @@ code {
 
 .logButtonDiv{
   margin-top: .25em;
-  margin-left: -58.5em;
+  /* margin-left: -86.5em; */
+  float: left;
+  align-items: left;
 }
 
 .logButton{
@@ -69,7 +71,8 @@ code {
   color: white;
   text-decoration: none;
   display: inline-block; 
-  font-size: 20px;
+  font-size: 18px;
+  padding: 10px;
  
 }
 

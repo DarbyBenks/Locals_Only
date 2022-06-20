@@ -26,9 +26,10 @@ const { isLoading } = useAuth0();
         <Link to="/posts" className='nav'> Posts </Link>
         <Link to="/createpost" className='nav'> Create </Link>
         <Link to ="/profile" className='nav'> Profile </Link>
-        </ul> 
+        
         <LoginButton />
         <LogoutButton />
+         </ul>
        </nav>
       <Routes>
         <Route path="/" element={<Home />} />

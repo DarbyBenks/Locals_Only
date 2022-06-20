@@ -17,5 +17,6 @@ c1 = Comment.create(comment: "This is a great place to visit!", post_id: p1.id)
 c2 = Comment.create(comment: "Such a cool location!", post_id: p2.id)
 c3 = Comment.create(comment: "WOW! JUST WOW!", post_id: p3.id)
 
+
 puts "finished seeding comments"
 puts "finsihed seeding"
