@@ -6,7 +6,7 @@ This project was an idea I have had for a while, it is an app that allows a user
 Allows the user to click on a single post to see more in depth details about the location and have a descripton of said location
 Allows the user to login to the system allowing them to be able to create posts and share it with the world
 
-##Future goals
+## Future goals
 
 Some future goals I have for the project are to utilise the google maps api to allow for my user to see exactly where the location is on the map when they select a post
 To allow for a user to have ownership of a post and to edit or delete their own posts in their profile page
